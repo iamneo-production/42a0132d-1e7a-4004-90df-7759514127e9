@@ -1,0 +1,68 @@
+.body1
+{
+    padding: 50px;
+    background-color:rgb(132, 168, 202);
+    height:800px;
+    background-size: cover;
+    font-family: 'Segoe UI';
+}
+.name1{
+  margin-top:20px;
+  font-weight: 500;
+  font-size:medium;
+}
+.name2{
+margin-top:20px;
+font-weight: 500;
+}
+.name3
+{
+margin-top:20px;
+font-weight: 500;
+}
+
+
+.class1{
+    margin-left:250px;
+    border-radius: 25px;
+  }
+.form1
+{
+  max-width: 300px;
+  height:700px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color:rgb(231, 216, 221);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form1 input[type='text'],
+.form1 input[type='email'],
+  .form1 input[type='password'] {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    padding: 5px;
+    font-size: 16px;
+    background-color:darkgrey;
+  }
+  
+  .form1 button[type='submit'] {
+    width: 40%;
+    margin-left: 90px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form1 button[type='submit']:hover {
+    background-color:rgb(71, 71, 71);
+  }
+  .signin{
+    text-align: center;
+    justify-content: center;
+  }

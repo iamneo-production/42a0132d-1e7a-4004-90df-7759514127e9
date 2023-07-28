@@ -1,0 +1,88 @@
+/* payment.css */
+.body1 {
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #f0f0f0;
+}
+.signup{
+ 
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+  /* Add any other styles you want for the container */
+
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form1 label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form1 input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form1 button {
+ 
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 04px;
+  cursor: pointer;
+  
+  justify-content: center;
+}
+
+.form1 button:hover {
+  background-color: #0056b3;
+}
+
+.form1 .error-message {
+  color: red;
+  margin: 5px 0;
+}
+
+.form1 div {
+  margin-bottom: 10px;
+}
+
+.form1 a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* register.css */
+.name1, .name2, .name3 {
+  font-size: 18px;
+}
+
+.fld1, .fld2, .fld3 {
+  margin-bottom: 20px;
+}
+
+.goback a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Add any additional CSS styling specific to your project */

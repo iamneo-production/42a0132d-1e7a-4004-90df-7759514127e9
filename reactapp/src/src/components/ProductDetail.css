@@ -1,0 +1,36 @@
+/* CSS file for the ProductDetail component */
+.product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .product-image img {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .product-info {
+    margin-left: 20px;
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .product-info ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .product-info li {
+    font-size: 14px;
+  }
+  
